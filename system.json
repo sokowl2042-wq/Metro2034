@@ -1,0 +1,96 @@
+{
+  "id": "mutant-year-zero",
+  "title": "Mutant Year Zero",
+  "description": "The Official Mutant Year Zero system for FoundryVTT!",
+  "version": "13.0.3",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "HappySteve",
+      "discord": "shteff#8724",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "module/myz.js"
+  ],
+  "styles": [
+    "css/mutant-year-zero.css"
+  ],
+  "packs": [
+    {
+      "name": "core-skills",
+      "label": "Core Skills",
+      "system": "mutant-year-zero",
+      "path": "packs/core-skills",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "myz-macros",
+      "label": "MYZ Macros",
+      "system": "mutant-year-zero",
+      "path": "packs/myz-macros",
+      "type": "Macro",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "se",
+      "name": "Swedish",
+      "path": "lang/se.json",
+      "flags": {}
+    },
+    {
+      "lang": "fr",
+      "name": "French",
+      "path": "lang/fr.json",
+      "flags": {}
+    },
+    {
+      "lang": "pt-br",
+      "name": "Portugues (Brasil)",
+      "path": "lang/pt-br.json",
+      "flags": {}
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português do Brasil",
+      "path": "lang/pt-br.json",
+      "flags": {}
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json",
+      "flags": {}
+    },
+    {
+      "lang": "es",
+      "name": "Spanish",
+      "path": "lang/es.json",
+      "flags": {}
+    }
+  ],
+  "grid":{
+	  "distance": 1,
+	  "units": "m"
+  },
+  "background":"systems/mutant-year-zero/assets/img/splash-page.jpg",
+  "url": "https://github.com/superseva/mutant-year-zero",
+  "manifest": "https://github.com/superseva/mutant-year-zero/releases/latest/download/system.json",
+  "download": "https://github.com/superseva/mutant-year-zero/releases/download/v13.0.3/mutant-year-zero.zip",
+  "license": "LICENSE"
+}
